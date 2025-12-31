@@ -39,3 +39,6 @@ hourly_df4
 
 [https://www.caiso.com/library/production-curtailments-data](https://www.caiso.com/library/production-curtailments-data)
 
+## Make the heatmap below yourself with the OasisHourly.ipynb notebook:
+
+![OASIS Hourly Load MW](notebook/caiso_oasis_hourly_figure03a.png)

@@ -40,5 +40,17 @@ hourly_df4
 [https://www.caiso.com/library/production-curtailments-data](https://www.caiso.com/library/production-curtailments-data)
 
 ## Make the heatmap below yourself with the OasisHourly.ipynb notebook:
+Note the scale is 50,000 MW here:
 
 ![OASIS Hourly Load MW](notebook/caiso_oasis_hourly_figure03a.png)
+
+## Make the Solar heatmap below yourself with the OasisHourly_WWS.ipynb notebook:
+Note the scale is 20,000 MW here:
+
+![Solar OASIS Hourly Load MW](notebook/caiso_oasis_hourly_figure03a_solar.png)
+
+## Make the Wind heatmap below yourself with the OasisHourly_WWS.ipynb notebook:
+Note the scale is 6,000 MW here:
+
+![Wind OASIS Hourly Load MW](notebook/caiso_oasis_hourly_figure03a_wind.png)
+

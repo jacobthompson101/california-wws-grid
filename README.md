@@ -70,3 +70,15 @@ Note the scale is 20,000 MW here, rather than 6,000 MW to compare more easily wi
 
 ![Large Hydro OASIS Hourly MW](notebook/caiso_oasis_hourly_figure03a_largehydro.png)
 
+# For a fun comparison of a region with high solar PV on the grid
+
+You can see a similar duck curve with solar PV during the day below, with what appears to be exported power in recent years.
+
+<strong>Reference:</strong> AEMO National Electricity Market (NEM) SA hourly data source:
+
+[https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data](https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/aggregated-data)
+
+## Make the AEMO NEM SA heatmap below yourself with the OasisHourly_AEMO_SA.ipynb notebook:
+Note the scale is [3250 to -250] MW here:
+
+![AEMO NEM SA Hourly Load MW](notebook/aemo_nem_sa_hourly_figure03a.png)

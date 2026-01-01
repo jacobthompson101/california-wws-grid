@@ -58,10 +58,15 @@ Note the scale is 50,000 MW here:
 ## Make the Solar heatmap below yourself with the OasisHourly_WWS.ipynb notebook:
 Note the scale is 20,000 MW here:
 
-![Solar OASIS Hourly Load MW](notebook/caiso_oasis_hourly_figure03a_solar.png)
+![Solar OASIS Hourly MW](notebook/caiso_oasis_hourly_figure03a_solar.png)
 
 ## Make the Wind heatmap below yourself with the OasisHourly_WWS.ipynb notebook:
 Note the scale is 20,000 MW here, rather than 6,000 MW to compare more easily with Solar above.
 
-![Wind OASIS Hourly Load MW](notebook/caiso_oasis_hourly_figure03a_wind.png)
+![Wind OASIS Hourly MW](notebook/caiso_oasis_hourly_figure03a_wind.png)
+
+## Make the Wind heatmap below yourself with the OasisHourly_WWS.ipynb notebook:
+Note the scale is 20,000 MW here, rather than 6,000 MW to compare more easily with Solar/Wind above.
+
+![Large Hydro OASIS Hourly MW](notebook/caiso_oasis_hourly_figure03a_largehydro.png)
 

@@ -33,6 +33,17 @@ Load, Solar, Wind, Net Load, Renewables, Nuclear, Large Hydro, Imports, Generati
 import pandas as pd
 hourly_df4 = pd.read_parquet('./caiso_oasis_14_25.parquet')
 hourly_df4
+
+OR
+
+# This one has zeros in all columns from Jan 1st to Apr 30th 2014, to get heatmap weeks to line up correctly.
+# There is likely data somewhere else for this year but I don't have it at the moment.
+# Use this one if you are making heatmaps by the method I used.
+hourly_df4 = pd.read_parquet('./caiso_oasis_2014_01_01_2025_11_30.parquet')
+
+OR
+
+hourly_df4 = pd.read_csv('./caiso_oasis_14_25.csv')
 ```
 
 <strong>Reference:</strong> CAISO hourly data source:
@@ -50,7 +61,7 @@ Note the scale is 20,000 MW here:
 ![Solar OASIS Hourly Load MW](notebook/caiso_oasis_hourly_figure03a_solar.png)
 
 ## Make the Wind heatmap below yourself with the OasisHourly_WWS.ipynb notebook:
-Note the scale is 6,000 MW here:
+Note the scale is 20,000 MW here, rather than 6,000 MW to compare more easily with Solar above.
 
 ![Wind OASIS Hourly Load MW](notebook/caiso_oasis_hourly_figure03a_wind.png)
 

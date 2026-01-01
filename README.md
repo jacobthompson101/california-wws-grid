@@ -65,7 +65,7 @@ Note the scale is 20,000 MW here, rather than 6,000 MW to compare more easily wi
 
 ![Wind OASIS Hourly MW](notebook/caiso_oasis_hourly_figure03a_wind.png)
 
-## Make the Wind heatmap below yourself with the OasisHourly_WWS.ipynb notebook:
+## Make the Large Hydro heatmap below yourself with the OasisHourly_WWS.ipynb notebook:
 Note the scale is 20,000 MW here, rather than 6,000 MW to compare more easily with Solar/Wind above.
 
 ![Large Hydro OASIS Hourly MW](notebook/caiso_oasis_hourly_figure03a_largehydro.png)
